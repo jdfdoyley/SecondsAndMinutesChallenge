@@ -1,10 +1,8 @@
 # SecondsAndMinutesChallenge
 
-In this challenge, we're going to create a method that takes time, represented in seconds, as a parameter. We'll then 
-want to transform the seconds into hours.
+In this challenge, we're going to create a method that takes time, represented in seconds, as a parameter. We'll then want to transform the seconds into hours.
 
-Next, we'll display the time in hours, with the remaining minutes and seconds, in a String. We'll do this transformation
-in two steps, which allows us to use overloaded methods.
+Next, we'll display the time in hours, with the remaining minutes and seconds, in a String. We'll do this transformation in two steps, which allows us to use overloaded methods.
 
 We want to create two methods with the same name: getDurationString
 * The first method has one parameter of type `int`, named `seconds`.
@@ -17,6 +15,5 @@ We want to create two methods with the same name: getDurationString
 * Start by creating a new project, and call it `SecondsAndMinutesChalleneg`.
 * Add validation to the methods as a bonus:
   * For the first method, the `seconds` parameter should be `>= 0`.
-  * For the second method, the `minutes` parameter should `>= 0`, and the `seconds` parameter should be `>= 0`, and 
-  `<= 59`.
+  * For the second method, the `minutes` parameter should `>= 0`, and the `seconds` parameter should be `>= 0`, and `<= 59`.
   * If either method is passed an invalid value, print out some type of meaningful message to the user.
